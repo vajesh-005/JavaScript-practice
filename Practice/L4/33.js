@@ -19,4 +19,4 @@ function chrono(date) {
         console.log(`Two dates are equal`);
     }
 }
-chrono(['JAN-12-2005', 'JUN-24-2006'])
+chrono(['JAN-12-2005', 'JUN-24-2006']);
