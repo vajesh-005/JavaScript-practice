@@ -13,9 +13,11 @@ function chrono(date) {
     if (year1 > year2 || year1 == year2 && months[month1] > months[month2] || year1 == year2 && months[month1] == months[month2] && date1 > date2) {
         console.log(`date 1 is greater than date 2 `);
     }
+
     else if (year1 < year2 || year1 == year2 && months[month1] < months[month2] || year1 == year2 && months[month1] == months[month2] && date1 < date2) {
         console.log(` date 2 is greater than date 1`);
-    } else {
+    } 
+    else {
         console.log(`Two dates are equal`);
     }
 }
